@@ -1,4 +1,3 @@
-requirements.txt
 .git
 __pycache__
 .env
@@ -6,3 +5,4 @@ __pycache__
 .venv
 credentials.json
 node_modules
+build.sh
