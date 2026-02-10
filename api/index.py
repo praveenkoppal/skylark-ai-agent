@@ -1,6 +1,7 @@
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from app import app
 
-# Vercel serverless function handler
-async def handler(request):
-    """Serverless function handler for Vercel"""
-    return app
+# This is the ASGI app entry point for Vercel serverless functions

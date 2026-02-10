@@ -1,0 +1,8 @@
+requirements.txt
+.git
+__pycache__
+.env
+*.pyc
+.venv
+credentials.json
+node_modules
