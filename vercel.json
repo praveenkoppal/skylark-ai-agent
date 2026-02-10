@@ -1,12 +1,7 @@
 {
-  "buildCommand": "true",
   "framework": "fastapi",
-  "functions": {
-    "api/*.py": {
-      "runtime": "python3.11"
-    }
-  },
+  "buildCommand": "pip install -r requirements.txt --break-system-packages || uv pip install --system -r requirements.txt",
   "env": {
-    "PIP_NO_BUILD_ISOLATION": "true"
+    "PYTHON_VERSION": "3.11"
   }
 }
