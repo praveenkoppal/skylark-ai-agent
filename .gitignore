@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+.env.local
+.env.*.local
+credentials.json
+.DS_Store
+.vscode/
+*.swp
+*.swo
+*~
+node_modules/
+.vercel/

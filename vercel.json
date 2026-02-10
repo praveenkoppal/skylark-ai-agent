@@ -1,0 +1,10 @@
+{
+  "buildCommand": "pip install -r requirements.txt",
+  "framework": "fastapi",
+  "functions": {
+    "api/index.py": {
+      "memory": 512,
+      "maxDuration": 30
+    }
+  }
+}
